@@ -1,0 +1,129 @@
+@charset "UTF-8";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  text-align: center;
+  background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%); }
+
+/*edición consejos*/
+h5 {
+  transition: all 1s; }
+
+h5:hover {
+  font-size: 3.2rem;
+  color: #06103a; }
+
+h1, footer, h5, h3 {
+  font-family: 'Zilla Slab', serif;
+  font-style: italic;
+  font-weight: normal; }
+
+h5, h3 {
+  font-size: 24px; }
+
+ul, ol {
+  font-family: 'Lato', sans-serif;
+  color: #050505;
+  font-weight: bold;
+  font-size: 20px; }
+
+.menu li {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  position: relative; }
+
+.menu li a {
+  text-decoration: none;
+  display: inline-block; }
+
+.menu li a:hover {
+  color: #e96dd4; }
+
+ul ul {
+  position: absolute;
+  display: none; }
+
+ul li:hover ul {
+  display: block;
+  background-color: #bdcad9;
+  background-image: linear-gradient(315deg, #bdcad9 0%, #e1dada 74%); }
+
+.formulario {
+  font-size: 18px;
+  margin: 20px; }
+
+.consejos {
+  font-size: 25px;
+  font-weight: bold; }
+
+.lista {
+  font-size: 16px;
+  font-weight: bold; }
+
+.formulario {
+  font-size: 18px;
+  margin: 20px; }
+
+main {
+  display: flex;
+  flex-wrap: center;
+  justify-content: space-around; }
+
+main img {
+  width: 100%;
+  padding: 5px;
+  margin: 7px; }
+
+.caja {
+  width: 20vw;
+  height: 20%;
+  margin: 1rem;
+  font-size: 16px; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.cat {
+  width: 30vw;
+  height: 50%;
+  font-size: 16px;
+  margin: 1rem; }
+
+.anchoFooter {
+  margin-top: 30px;
+  background-color: white;
+  text-align: center; }
+
+.bi-facebook, .bi-whatsapp, .bi-instagram {
+  text-align: center;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: black; }
+  .bi-facebook:hover, .bi-whatsapp:hover, .bi-instagram:hover {
+    color: blue; }
+
+.bi-whatsapp:hover {
+  color: green; }
+
+.bi-instagram:hover {
+  color: red; }
+
+.encabezado {
+  color: black;
+  font-weight: bold;
+  background-color: #d669b2; }
+
+.container {
+  font-family: Arial, Helvetica, sans-serif; }
+  .container .h1 {
+    font-weight: bold;
+    color: black; }
+  .container .p {
+    text-align: center;
+    font-family: 'Permanent Marker', cursive; }
